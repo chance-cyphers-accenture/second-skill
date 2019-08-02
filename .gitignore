@@ -1,0 +1,38 @@
+node_modules/
+.idea/
+.vscode/
+*.log
+**/*.iml
+target/
+coverage/
+index.js.map
+.env
+*.tgz
+**/*.d.ts
+skillBotConf.json
+skillbot.json
+
+codeship.aes
+docker/aws.env
+
+.nyc_output/
+
+**/.DS_Store
+
+# generated docs
+site/
+
+# Include all stuff under test/resources
+!test/resources/*
+!test/resources/exampleProject/*
+!test/resources/deployProject/*
+test/resources/ContentPromoPromptCopy.m4a
+
+# Babel and Lambda generation outputs
+dist/
+artifact.zip
+
+# bst test html report
+test_output/
+
+.venv/
