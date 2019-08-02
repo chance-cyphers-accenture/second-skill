@@ -13,12 +13,12 @@
             "codeUri": "lambda/py/lambda_upload",
             "functionName": "ask-custom-second-skill-default",
             "handler": "hello_world.handler",
-            "revisionId": "b13784a3-fb75-4fda-872f-26f86775530f",
+            "revisionId": "03cc77c7-d0c3-43be-8b07-9cd62adb2fd1",
             "runtime": "python3.6"
           }
         ],
         "manifest": {
-          "eTag": "8ca56efdf7aabd1be599f5087979bc23"
+          "eTag": "92e826645a982bf771c70d2e7b2a9b6c"
         },
         "interactionModel": {
           "en-US": {
