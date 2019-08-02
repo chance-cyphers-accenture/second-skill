@@ -36,3 +36,4 @@ artifact.zip
 test_output/
 
 .venv/
+lambda/py/lambda_upload/
