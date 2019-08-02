@@ -2,15 +2,11 @@ version: 2
 jobs:
   build:
     docker:
-      - image: debian:stretch
+      - image: circleci/node:10
 
     steps:
       - checkout
-
+      - run: sudo npm install -g ask-cli
       - run:
-          name: Greeting
-          command: echo Hello, world.
-
-      - run:
-          name: Print the Current Time
-          command: date
+          name: deploy
+          command: ./deploy.sh Dev
